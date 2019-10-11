@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <title>HTML template</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700|PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,22 +19,26 @@
       <nav>
         <ol>
           <li><a href="#Common-varieties">Common varieties</a></li>
-          <li><a href="#">Nutritional information</a></li>
-          <li><a href="#">Tags</a></li>
+          <li><a href="#Nutritional-information">Nutritional information</a></li>
+          <li><a href="#Tags">Tags</a></li>
         </ol>
       </nav>
       <figure>
         <img src="images/beets.jpg" alt="">
-        <figcaption>A bundle of organic beets from a local farm food co-op program</figcaption>
+        <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
       </figure>
     </header>
 
     <article>
 
-      <p><data value="60">55 to 65 days</data> are needed from germination to harvest of the root.</p>
+      <div>
+        <p><data value="60">55 to 65 days</data> are needed from germination to harvest of the root.</p>
+      </div>
+
       <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
-      <p>In fact <cite>Jim Halpert</cite> once said this about beets<q>Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i></q>.</p>
+      <p>In fact <cite>Jim Halpert</cite> once said this about beets,<q>"Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica"</i></q>.</p>
       <blockquote><cite>"I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong> Show me a salad bar and I will clean them out of their beets".</cite></blockquote>
+      <p class="chris">-Chris Pratt</p>
 
     </article>
 
@@ -47,16 +56,22 @@
     <header>
       <h2>Nutritional information</h2>
     </header>
-    <dl>
-      <dt>Serving size:</dt>
-      <dd><data value="100">100g</data></dd>
 
+    <dl>
+    <div>
+      <dt>Serving size:<data value="100">100 g</data></dt>
+    </div>
+    </dl>
+
+    <dl>
       <dt>Energy:</dt>
-      <dd><data value="180">180kJ</data></dd>
+      <dd><data value="180">180 kJ</data></dd>
       <dt>Carbohydrates:</dt>
-      <dd><data value="9.96">9.96g</data></dd>
+      <dd><data value="9.96">9.96 g</data></dd>
+      <dt>Fat:</dt>
+      <dd><data value="0.18">0.18 g</data><dd>
       <dt>Protein:</dt>
-      <dd><data value="1.68">1.68g</data></dd>
+      <dd><data value="1.68">1.68 g</data></dd>
     </dl>
 
     <aside>
@@ -75,9 +90,7 @@
     </aside>
 
     <footer>
-      <p><small>Source</small></p>
-      <a href="https://www.wikipedia.org">Wikipedia:</a>Last modified:
-      <time datetime="2014-08-30">Aug. 30 2014</time>
+      <p>Source <a href="https://www.wikipedia.org" class="wiki">Wikipedia; </a>Last modified: <time datetime="2014-08-30">Aug. 30 2014</time></p>
 
     </footer>
 
