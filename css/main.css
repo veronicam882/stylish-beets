@@ -7,6 +7,7 @@ html {
 h1, h2 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
+  font-weight: normal;
 }
 
 a:not(.wiki) {
@@ -14,6 +15,7 @@ a:not(.wiki) {
   font-size: 1.125rem;
   font-family: 'PT Sans', sans-serif;
   text-decoration: none;
+  font-weight: normal;
   }
 a:hover{
   color: #3f1622;
@@ -23,12 +25,14 @@ a:hover{
   color: #8f2440;
   text-decoration: none;
   font-size: 0.8rem;
+  font-weight: normal;
 }
 
 figcaption {
   text-align: center;
   font-style: italic;
   font-family: 'PT Serif', serif;
+  font-weight: normal;
 }
 
 article div p {
@@ -40,6 +44,7 @@ article div p {
 article p {
   font-size: 1.125rem;
   font-family: 'PT Serif', serif;
+  font-weight: normal;
 }
 
 blockquote {
@@ -47,35 +52,41 @@ blockquote {
   font-style: italic;
   font-size: 1.5rem;
   text-align: justify;
+  font-weight: normal;
 }
 
 .chris {
   font-style: italic;
   font-size: 0.8rem;
   text-align: justify;
+  font-weight: normal;
 }
 
 header ul li {
   list-style-type: lower-greek;
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
+  font-weight: normal;
 }
 
 aside ul li {
   list-style-type: circle;
   font-size: 0.8rem;
   font-family: 'PT Serif', serif;
+  font-weight: normal;
 }
 
 footer p {
   font-family: 'PT Serif', serif;
   font-size: 0.8rem;
+  font-weight: normal;
 }
 
 dl div {
   font-family: 'PT Serif', serif;
   font-style: italic;
   font-size: 1.125rem;
+  font-weight: normal;
 }
 
 dl dt {
@@ -87,4 +98,5 @@ dl dt {
 dl dd {
   font-family: 'PT Serif', serif;
   font-size: 1.125rem;
+  font-weight: normal;
 }
