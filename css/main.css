@@ -4,6 +4,11 @@ html {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
@@ -34,7 +39,7 @@ a:hover {
 }
 
 figcaption {
-  text-align: justify;
+  text-align: center;
   font-style: italic;
   font-family: "PT Serif", serif;
   font-weight: normal;
@@ -43,11 +48,11 @@ figcaption {
 article div p {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 article p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "PT Serif", serif;
   font-weight: normal;
 }
@@ -71,7 +76,7 @@ blockquote {
 header ul li {
   list-style-type: lower-greek;
   font-family: "PT Serif", serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
@@ -91,18 +96,18 @@ footer p {
 dl div {
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
 }
 
 dl dt {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 dl dd {
   font-family: "PT Serif", serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: normal;
 }
