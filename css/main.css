@@ -13,6 +13,7 @@ h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
+  font-size: 1.5rem;
 }
 
 a:not(.wiki) {
